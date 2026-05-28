@@ -1,0 +1,105 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		},
+		{
+			"path" : "pages/index/chatlist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "聊天列表"
+			}
+		},
+		{
+			"path" : "pages/index/trip_info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "行程详情"
+			}
+		},
+		{
+			"path": "pages/index/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path" : "pages/index/car_manage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "车牌管理"
+			}
+		},
+		{
+			"path" : "pages/index/manage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "管理拼车"
+			}
+		},
+		{
+			"path" : "pages/index/order_launch",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发布拼车"
+			}
+		},
+		{
+			"path" : "pages/index/person",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人主页"
+			}
+		},
+		{
+			"path" : "pages/index/calendar",
+			"style" : 
+			{
+				"navigationBarTitleText" : "拼车日历"
+			}
+		},
+		{
+			"path" : "pages/index/info_manage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "信息修改"
+			}
+		},
+		
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "济智出行"
+			}
+		},
+		{
+			"path" : "pages/index/record",
+			"style" : 
+			{
+				"navigationBarTitleText" : "拼车记录"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+
+	"condition": { 
+		"current": 0, 
+		"list": [
+			{
+				"name": "", 
+				"path": "", 
+				"query": ""
+			}
+		]
+	}
+}

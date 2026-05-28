@@ -1,0 +1,3 @@
+2025/4/9 更新：login.vue、register.vue的前后端
+
+🌟大家在写前后端连接的时候可能会遇到{“errMsg“:“request:fail abort statusCode:-1“}的问题，这时候记得把uniapp中所有发送请求的ip地址改为当前的电脑ip地址，也就是在cmd中通过ipconfig查看到的ipv4地址！后端的app.py中host仍为0.0.0.0!

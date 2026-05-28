@@ -1,0 +1,116 @@
+
+.container[data-v-224dede7] {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../../static/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card[data-v-224dede7] {
+  width: 80%;
+  margin-top: -30px;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title[data-v-224dede7] {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card-body[data-v-224dede7] {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 400px;
+}
+.input-group[data-v-224dede7] {
+  margin-bottom: 20px;
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-group uni-label[data-v-224dede7] {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.input[data-v-224dede7] {
+  width: 262px;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.info-picker[data-v-224dede7] {
+  width: 262px;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+.picker-text[data-v-224dede7] {
+  font-size: 14px;
+  color: #333;
+}
+.button-group[data-v-224dede7] {
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.primary-button[data-v-224dede7] {
+  width: 262px;
+  height: 36px;
+  padding: 8px;
+  background-color: #007aff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary-button[data-v-224dede7]:hover {
+  background-color: #005bb5;
+}
+.default-button[data-v-224dede7] {
+  width: 262px;
+  height: 36px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  color: #333333;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.default-button[data-v-224dede7]:hover {
+  background-color: #e0e0e0;
+}
+.register-link[data-v-224dede7] {
+  text-align: center;
+}

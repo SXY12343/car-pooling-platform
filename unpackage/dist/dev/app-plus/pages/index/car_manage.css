@@ -1,0 +1,258 @@
+
+.nav-bar[data-v-e29e7744] {
+  position: fixed; /* 固定在页面底部 */
+  bottom: 0;
+  left: 0;
+  width: 100%; /* 宽度占满整个屏幕 */
+  background-color: #f8f8f8;
+  padding: 5px 0; /* 上下内边距 */
+  display: flex; /* 使用 flexbox 布局 */
+  justify-content: space-around; /* 图标均匀分布 */
+  align-items: center; /* 垂直居中 */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* 添加阴影，提升视觉效果 */
+  z-index: 1000; /* 确保导航栏在最上层 */
+}
+.icon-container[data-v-e29e7744] {
+  display: flex; /* 使用 flexbox 布局 */
+  justify-content: space-around; /* 图标均匀分布 */
+  width: 100%; /* 确保容器宽度占满 */
+}
+.icon[data-v-e29e7744] {
+  width: 25px; /* 图标宽度 */
+  height: 25px; /* 图标高度 */
+}
+
+
+.user-profile-container[data-v-f62f82f0] {
+  height: 100vh; /* 高度占据整个视口 */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; /* 启用弹性布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  background-image: url('../../static/bg.jpg');
+  background-size: cover; /* 确保背景图片覆盖整个容器 */
+  background-position: center; /* 背景图片居中 */
+}
+.car-info-card[data-v-f62f82f0] {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  margin-top: 0px;
+}
+.car-scroll[data-v-f62f82f0] {
+  width:100%;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.plate-item[data-v-f62f82f0] {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  justify-content: space-between; /* 添加这一行 */
+}
+.plate-info[data-v-f62f82f0] {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* 让信息部分占据剩余空间 */
+}
+.plate-actions[data-v-f62f82f0] {
+  display: flex;
+  gap: 5px; /* 按钮之间的间距 */
+}
+.plate-item .fa-car[data-v-f62f82f0] {
+  margin-right: 10px;
+  color: #007aff;
+}
+.plate-number[data-v-f62f82f0] {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.color-badge[data-v-f62f82f0] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.car-model[data-v-f62f82f0] {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #666;
+}
+.edit-button[data-v-f62f82f0] {
+  padding: 0px 5px;
+  margin-right: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+}
+.unbind-button[data-v-f62f82f0] {
+  padding: 0px 5px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+}
+.add-plate-button[data-v-f62f82f0] {
+  padding: 0px 15px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+.no-plate-tip[data-v-f62f82f0] {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* 模态窗口样式 */
+.modal[data-v-f62f82f0] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-content[data-v-f62f82f0] {
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 8px;
+  width: 82%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.close[data-v-f62f82f0] {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  color: #aaa;
+  cursor: pointer;
+}
+.close[data-v-f62f82f0]:hover {
+  color: #333;
+}
+.form-group[data-v-f62f82f0] {
+  margin-bottom: 15px;
+}
+.form-group uni-label[data-v-f62f82f0] {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.plate-input-group[data-v-f62f82f0] {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.plate-select[data-v-f62f82f0], .plate-input[data-v-f62f82f0] {
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 0px;
+  font-size: 14px;
+}
+.plate-select[data-v-f62f82f0] {
+  min-width: 30px;
+}
+.plate-input[data-v-f62f82f0] {
+  width: 30px;
+  text-align: center;
+}
+.color-select[data-v-f62f82f0] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 0px;
+  font-size: 16px;
+}
+/* 确保数字输入框与选择框样式一致 */
+uni-input[type="number"][data-v-f62f82f0] {
+  -moz-appearance: textfield; /* Firefox */
+}
+uni-input[type="number"][data-v-f62f82f0]::-webkit-inner-spin-button,
+uni-input[type="number"][data-v-f62f82f0]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Safari 和 Chrome */
+  margin: 0;
+}
+.confirm-btn[data-v-f62f82f0] {
+  width: 100%;
+  padding: 0px 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.confirm-btn[data-v-f62f82f0]:hover {
+  background-color: #0062cc;
+}
+
+/* 添加 picker 相关样式 */
+.plate-picker[data-v-f62f82f0] {
+  height: 30px;
+  min-width: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  margin-right: 5px;
+}
+.picker-content[data-v-f62f82f0] {
+  font-size: 14px;
+  color: #333;
+}
+
+/* 确保输入框对齐 */
+.plate-input-group[data-v-f62f82f0] {
+  display: flex;
+  align-items: center;
+}
+.color-picker[data-v-f62f82f0] {
+  width: 93.5%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
